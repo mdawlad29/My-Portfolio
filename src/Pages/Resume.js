@@ -46,7 +46,7 @@ const Resume = () => {
       <h2 className="md:text-6xl text-4xl md:text-center text-start text-gray-300 font-medium capitalize pt-3 md:pb-12 pb-5">
         my resume
       </h2>
-      <Box sx={{ "& .MuiBox-root": { padding: 0,paddingTop:2 } }}>
+      <Box sx={{ "& .MuiBox-root": { padding: 0, paddingTop: 2 } }}>
         <Tabs
           sx={{
             backgroundColor: "#212428",

@@ -37,8 +37,8 @@ const PortfolioCard = () => {
         <h2 className="text-3xl text-start font-medium">
           The service provide for design
         </h2>
-          </div>
-          {/* --serviceThree-- */}
+      </div>
+      {/* --serviceThree-- */}
       <div className="bg-[#212428] text-gray-300 px-8 py-10 space-y-6 rounded-lg shadow-2xl">
         <img className="w-full h-56 rounded-lg" src={blog3} alt="" />
         <div className="flex justify-between">
@@ -65,8 +65,8 @@ const PortfolioCard = () => {
         <h2 className="text-3xl text-start font-medium">
           The service provide for design
         </h2>
-          </div>
-          {/* --serviceFive-- */}
+      </div>
+      {/* --serviceFive-- */}
       <div className="bg-[#212428] text-gray-300 px-8 py-10 space-y-6 rounded-lg shadow-2xl">
         <img className="w-full h-56 rounded-lg" src={blog5} alt="" />
         <div className="flex justify-between">
@@ -79,8 +79,8 @@ const PortfolioCard = () => {
         <h2 className="text-3xl text-start font-medium">
           The service provide for design
         </h2>
-          </div>
-          {/* --serviceSix-- */}
+      </div>
+      {/* --serviceSix-- */}
       <div className="bg-[#212428] text-gray-300 px-8 py-10 space-y-6 rounded-lg shadow-2xl">
         <img className="w-full h-56 rounded-lg" src={blog6} alt="" />
         <div className="flex justify-between">

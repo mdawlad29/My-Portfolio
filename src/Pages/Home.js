@@ -1,8 +1,10 @@
 import React from "react";
 import Banner from "../Components/Banner";
+import Blogs from "./Blogs";
 import Features from "./Features";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
+import Testimonial from "./Testimonial";
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
       <Features />
       <Portfolio />
       <Resume />
+      <Testimonial />
+      <Blogs />
     </div>
   );
 };
