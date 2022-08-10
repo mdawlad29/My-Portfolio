@@ -2,6 +2,7 @@ import { Box, Tab, Tabs, Typography } from "@mui/material";
 import React, { useState } from "react";
 import Education from "../Components/AllResume/Education/Education";
 import Experience from "../Components/AllResume/Experience/Experience";
+import Interview from "../Components/AllResume/Interview/Interview";
 import Skill from "../Components/AllResume/Skills/Skills";
 
 function TabPanel(props) {
@@ -88,7 +89,7 @@ const Resume = () => {
           <Experience />
         </TabPanel>
         <TabPanel value={value} index={3}>
-          Item Three
+          <Interview />
         </TabPanel>
       </Box>
     </div>
