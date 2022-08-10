@@ -39,14 +39,14 @@ const Resume = () => {
   };
 
   return (
-    <div className="py-20">
-      <h2 className="text-lg text-center text-[#FF014F] uppercase">
+    <div className="md:py-20 py-5">
+      <h2 className="text-lg md:text-center text-start text-[#FF014F] uppercase">
         1.5+ year experience
       </h2>
-      <h2 className="text-6xl text-center text-gray-300 font-medium capitalize pt-3 pb-12">
+      <h2 className="md:text-6xl text-4xl md:text-center text-start text-gray-300 font-medium capitalize pt-3 md:pb-12 pb-5">
         my resume
       </h2>
-      <Box sx={{}}>
+      <Box sx={{ "& .MuiBox-root": { padding: 0,paddingTop:2 } }}>
         <Tabs
           sx={{
             backgroundColor: "#212428",

@@ -13,8 +13,8 @@ const Interview = () => {
     <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-16 md:gap-8 gap-4">
       {/* --left_interview-- */}
       <div>
-        <h2 className="text-lg text-[#FF014F] uppercase pt-10">15-11-2021</h2>
-        <h2 className="text-3xl font-medium text-white capitalize py-3">
+        <h2 className="text-lg text-[#FF014F] uppercase md:pt-10">15-11-2021</h2>
+        <h2 className="md:text-3xl text-2xl font-medium text-white capitalize py-3">
           company experience
         </h2>
         {/* --interview1-- */}
@@ -68,21 +68,21 @@ const Interview = () => {
       </div>
       {/* --right_job-- */}
       <div>
-        <h2 className="text-3xl font-medium text-white py-10 uppercase">
+        <h2 className="md:text-3xl text-2xl font-medium text-white md:py-10 uppercase">
           nexis limited
         </h2>
         <div className="bg-[#212428] border-l-8 border-[#141414] relative"
         >
-          <div className="md:mx-12 mx-7 my-3 shadow-2xl px-8 py-10 rounded-lg hover:bg-[#141414] divide-y divide-[#141414] hover:divide-[#1F2425] space-y-10">
+          <div className="md:ml-12 ml-7 my-3 shadow-2xl md:px-8 p-4 md:py-10 rounded-lg hover:bg-[#141414] divide-y divide-[#141414] hover:divide-[#1F2425] md:space-y-10 space-y-3">
             <div>
-              <h2 className="text-xl text-white">
+              <h2 className="md:text-xl text-white">
                 Junior Frontend Developer with React.Js
               </h2>
               <p className="text-xs text-gray-400 font-bold">
                 Present (Joining Date: 01-03-2022)
               </p>
             </div>
-            <p className="pt-10 text-gray-400 font-bold">
+            <p className="md:pt-10 pt-3 text-gray-400 font-bold">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
               assumenda!
             </p>

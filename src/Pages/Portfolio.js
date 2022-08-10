@@ -3,11 +3,11 @@ import PortfolioCard from "../Components/Portfolio/PortfolioCard";
 
 const Portfolio = () => {
   return (
-    <div className="py-20 text-center">
-      <h2 className="text-lg text-[#FF014F] uppercase">
+    <div className="md:py-20 py-5 md:text-center text-start">
+      <h2 className="md:text-lg text-sm text-[#FF014F] uppercase">
         visit my portfolio and keep your feedback
       </h2>
-      <h2 className="text-6xl text-gray-300 font-medium capitalize pt-3 pb-12">
+      <h2 className="md:text-6xl text-4xl text-gray-300 font-medium capitalize pt-3 md:pb-12 pb-5">
         my portfolio
       </h2>
       <PortfolioCard />

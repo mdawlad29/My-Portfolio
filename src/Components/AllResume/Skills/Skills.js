@@ -39,8 +39,8 @@ const Skill = () => {
       <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-16 md:gap-8 gap-4">
         {/* --left-- */}
         <div>
-          <h2 className="text-lg text-[#FF014F] uppercase pt-10">skills</h2>
-          <h2 className="text-3xl font-medium text-white capitalize py-3">
+          <h2 className="md:text-lg text-sm text-[#FF014F] uppercase md:pt-10">skills</h2>
+          <h2 className="md:text-3xl text-2xl font-medium text-white capitalize py-3">
             preferable
           </h2>
           {/* --react-- */}
@@ -166,8 +166,8 @@ const Skill = () => {
         </div>
         {/* --right-- */}
         <div>
-          <h2 className="text-lg text-[#FF014F] uppercase pt-10">skills</h2>
-          <h2 className="text-3xl font-medium text-white capitalize py-3">
+          <h2 className="md:text-lg text-sm text-[#FF014F] uppercase md:pt-10">skills</h2>
+          <h2 className="md:text-3xl text-2xl font-medium text-white capitalize py-3">
             comfortable
           </h2>
           {/* --node-- */}
