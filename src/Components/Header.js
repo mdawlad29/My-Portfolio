@@ -21,7 +21,7 @@ const Header = () => {
       let windowHeight = window.scrollY;
       windowHeight > 80
         ? setStickyClass(
-            "fixed top-0 left-0 w-full bg-[#212428] text-white shadow-lg"
+            "fixed top-0 left-0 w-full bg-[#BB1916] text-white shadow-lg"
           )
         : setStickyClass("");
     }
@@ -50,56 +50,56 @@ const Header = () => {
         >
           <li className="md:ml-8 text-base lg:my-0 my-2 lg:space-y-0 md:space-y-3 space-y-3">
             <NavLink
-              to=""
+              to="/home"
               className="text-white  duration-500 uppercase mx-3 md:block block lg:inline-block"
             >
               home
             </NavLink>
             <NavLink
-              to=""
+              to="/features"
               className="text-white  duration-500 uppercase mx-3 md:block block lg:inline-block"
             >
               feature
             </NavLink>
             <NavLink
-              to=""
+              to="/portfolio"
               className="text-white  duration-500 uppercase mx-3 md:block block lg:inline-block"
             >
               portfolio
             </NavLink>
             <NavLink
-              to=""
+              to="/resume"
               className="text-white  duration-500 uppercase mx-3 md:block block lg:inline-block"
             >
               resume
             </NavLink>
             <NavLink
-              to=""
+              to="/clients"
               className="text-white  duration-500 uppercase mx-3 md:block block lg:inline-block"
             >
               clients
             </NavLink>
             <NavLink
-              to=""
+              to="/pricing"
               className="text-white  duration-500 uppercase mx-3 md:block block lg:inline-block"
             >
               pricing
             </NavLink>
             <NavLink
-              to=""
+              to="/blogs"
               className="text-white  duration-500 uppercase mx-3 md:block block lg:inline-block"
             >
               blog
             </NavLink>
             <NavLink
-              to=""
+              to="/contact"
               className="text-white  duration-500 uppercase mx-3 md:block block lg:inline-block"
             >
               contact
             </NavLink>
           </li>
 
-          <button className="bg-pink-600 text-white font-[Poppins] my-2 py-2 px-6 rounded lg:ml-20 md:ml-9 hover:indigo-400 duration-500">
+          <button className="bg-[#102750] text-white font-[Poppins] my-2 py-2 px-6 rounded lg:ml-20 md:ml-9 hover:indigo-400 duration-500 uppercase">
             Login
           </button>
         </ul>

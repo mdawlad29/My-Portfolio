@@ -1,5 +1,6 @@
 import ProgressBar from "@ramonak/react-progress-bar";
 import React from "react";
+import { Zoom } from "react-reveal";
 
 const Skill = () => {
   const CompletedOne = 70;
@@ -35,11 +36,11 @@ const Skill = () => {
   const natSkill = Math.round((CompletedEight / maxCompletedEight) * 100);
 
   return (
-    <div>
+    <>
       <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-16 md:gap-8 gap-4">
         {/* --left-- */}
         <div>
-          <h2 className="md:text-lg text-sm text-[#FF014F] uppercase md:pt-10">skills</h2>
+          <h2 className="md:text-lg text-sm text-[#FF014F] uppercase md:pt-10 py-4">skills</h2>
           <h2 className="md:text-3xl text-2xl font-medium text-white capitalize py-3">
             preferable
           </h2>
@@ -244,7 +245,7 @@ const Skill = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

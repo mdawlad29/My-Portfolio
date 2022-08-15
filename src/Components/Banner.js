@@ -37,7 +37,7 @@ const Banner = () => {
         </p>
         {/* --skill-- */}
         <div className="flex justify-between flex-wrap md:gap-5 items-center">
-          <div className="">
+          <div>
             <h2 className="text-gray-300 md:text-start text-center text-lg uppercase py-4">
               find with me
             </h2>
@@ -72,7 +72,7 @@ const Banner = () => {
         </div>
       </div>
       {/* --right Img-- */}
-      <div className="lg:col-span-1 md:col-span-2 col-span-1 bg-[#1C1E22] lg:order-2 rounded-md order-1">
+      <div className="lg:col-span-1 md:col-span-2 col-span-1 lg:order-2 rounded-md order-1">
         <div>
           <img className="w-full object-cover" src={Img} alt="" />
         </div>

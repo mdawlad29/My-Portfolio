@@ -15,7 +15,7 @@ const Blogs = () => {
       </h2>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
         {/* --serviceOne-- */}
-        <div className="bg-[#212428] text-gray-300 px-8 py-10 space-y-6 rounded-lg shadow-2xl">
+        <div className="bg-[#102750] text-gray-300 px-8 py-10 space-y-6 rounded-lg shadow-2xl">
           <img className="w-full h-56 rounded-lg" src={blog1} alt="" />
           <div className="flex justify-between">
             <p className="uppercase text-[#FF014F]">development</p>
@@ -29,7 +29,7 @@ const Blogs = () => {
           </h2>
         </div>
         {/* --serviceTwo-- */}
-        <div className="bg-[#212428] text-gray-300 px-8 py-10 space-y-6 rounded-lg shadow-2xl">
+        <div className="bg-[#102750] text-gray-300 px-8 py-10 space-y-6 rounded-lg shadow-2xl">
           <img className="w-full h-56 rounded-lg" src={blog2} alt="" />
           <div className="flex justify-between">
             <p className="uppercase text-[#FF014F]">development</p>
@@ -43,7 +43,7 @@ const Blogs = () => {
           </h2>
         </div>
         {/* --serviceThree-- */}
-        <div className="bg-[#212428] text-gray-300 px-8 py-10 space-y-6 rounded-lg shadow-2xl">
+        <div className="bg-[#102750] text-gray-300 px-8 py-10 space-y-6 rounded-lg shadow-2xl">
           <img className="w-full h-56 rounded-lg" src={blog3} alt="" />
           <div className="flex justify-between">
             <p className="uppercase text-[#FF014F]">development</p>
