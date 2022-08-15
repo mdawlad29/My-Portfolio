@@ -40,7 +40,7 @@ const Resume = () => {
 
   return (
     <>
-      <div className="md:py-20 py-5">
+      <div className="md:py-20 py-5 md:mx-10 mx-7">
         <h2 className="text-lg md:text-center text-start text-[#FF014F] uppercase">
           1.5+ year experience
         </h2>

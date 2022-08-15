@@ -3,7 +3,7 @@ import PortfolioCard from "../Components/Portfolio/PortfolioCard";
 
 const Portfolio = () => {
   return (
-    <div className="md:py-20 py-5 md:text-center text-start">
+    <div className="md:py-20 py-5 md:text-center text-start md:mx-10 mx-7">
       <h2 className="md:text-lg text-sm text-[#FF014F] uppercase">
         visit my portfolio and keep your feedback
       </h2>

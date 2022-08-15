@@ -18,7 +18,7 @@ const Education = () => {
                     CSE at Computer Science & Engineering (2017-2022)
                   </p>
                 </div>
-                <p className="bg-[#1F2425] text-white py-2 px-3 shadow-2xl rounded-lg">
+                <p className="bg-[#102750] text-white py-2 px-10 shadow-2xl rounded-lg">
                   3.68 / 4
                 </p>
               </div>
@@ -49,7 +49,7 @@ const Education = () => {
                     School of Studies (2012-2017)
                   </p>
                 </div>
-                <p className="bg-[#1F2425] text-white py-2 px-3 shadow-2xl rounded-lg">
+                <p className="bg-[#102750] text-white py-2 px-10 shadow-2xl rounded-lg">
                   4.23 / 5
                 </p>
               </div>

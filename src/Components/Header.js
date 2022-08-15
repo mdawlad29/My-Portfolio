@@ -21,7 +21,7 @@ const Header = () => {
       let windowHeight = window.scrollY;
       windowHeight > 80
         ? setStickyClass(
-            "fixed top-0 left-0 w-full bg-[#BB1916] text-white shadow-lg"
+            "fixed top-0 left-0 w-full bg-[#102750] text-white shadow-lg"
           )
         : setStickyClass("");
     }
@@ -37,14 +37,14 @@ const Header = () => {
         </div>
         <div
           onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-8 top-6 cursor-pointer lg:hidden"
+          className="text-3xl absolute right-8 top-6 cursor-pointer lg:hidden text-white"
         >
           {open ? <AiOutlineMenu /> : <AiOutlineClose />}
         </div>
         <ul
           className={`lg:flex lg:items-center absolute lg:static lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 md:px-2 px-7 transition-all duration-500 ease-in ${
             !open
-              ? "top-20 opacity-100 py-2"
+              ? "top-20 opacity-90 py-2 bg-[#102750]"
               : "top-[-490px] md:opacity-100 opacity-0"
           }`}
         >
@@ -67,18 +67,14 @@ const Header = () => {
             >
               portfolio
             </NavLink>
-            <NavLink
-              to="/resume"
-              className="text-white  duration-500 uppercase mx-3 md:block block lg:inline-block"
+            <a
+              href="https://drive.google.com/file/d/1ljw21g5wMlH71NEJMeYDvhuGDbg2Epz5/view?usp=sharing"
+              target="_blank"
+              className="text-white duration-500 uppercase mx-3 md:block block
+            lg:inline-block"
             >
               resume
-            </NavLink>
-            <NavLink
-              to="/clients"
-              className="text-white  duration-500 uppercase mx-3 md:block block lg:inline-block"
-            >
-              clients
-            </NavLink>
+            </a>
             <NavLink
               to="/pricing"
               className="text-white  duration-500 uppercase mx-3 md:block block lg:inline-block"
@@ -98,10 +94,11 @@ const Header = () => {
               contact
             </NavLink>
           </li>
-
-          <button className="bg-[#102750] text-white font-[Poppins] my-2 py-2 px-6 rounded lg:ml-20 md:ml-9 hover:indigo-400 duration-500 uppercase">
-            Login
-          </button>
+          <NavLink to="/login">
+            <button className="bg-[#BB1619] text-white font-[Poppins] my-2 py-2 px-6 rounded lg:ml-20 md:ml-9 hover:indigo-400 duration-500 uppercase">
+              Login
+            </button>
+          </NavLink>
         </ul>
       </div>
     </div>

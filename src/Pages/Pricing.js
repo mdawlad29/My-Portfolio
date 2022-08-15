@@ -37,7 +37,7 @@ const Pricing = () => {
     setValue(newValue);
   };
   return (
-    <div className="md:py-20 py-5">
+    <div className="md:py-20 py-5 md:mx-10 mx-7">
       <div className="grid lg:grid-cols-2 grid-cols-1 md:gap-6 gap-3">
         {/* --left-- */}
         <div className="shadow-2xl md:px-8 px-4">

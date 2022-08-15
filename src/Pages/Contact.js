@@ -4,12 +4,11 @@ import { IoLogoFacebook } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { ImGithub } from "react-icons/im";
 import { SiFiverr } from "react-icons/si";
-import { Box } from "@mui/system";
-import { Grid, TextareaAutosize, TextField } from "@mui/material";
+import { TbSend } from "react-icons/tb";
 
 const Contact = () => {
   return (
-    <div className="md:py-20 py-5">
+    <div className="md:py-20 py-5 md:mx-10 mx-7">
       {/* --title-- */}
       <h2 className="text-lg md:text-center text-start text-[#FF014F] uppercase">
         contact
@@ -19,7 +18,7 @@ const Contact = () => {
       </h2>
       <div className="grid lg:grid-cols-3 md:grid-cols-1 grid-cols-1 md:gap-6 gap-3">
         {/* --leftInfo-- */}
-        <div className="lg:col-span-1 col-span-1 bg-white shadow-xl md:px-8 px-4 py-5 rounded-lg md:space-y-5 space-y-2">
+        <div className="lg:col-span-1 col-span-1 bg-white shadow-2xl md:px-8 px-4 py-5 rounded-lg md:space-y-5 space-y-2">
           <img
             className="w-full object-cover rounded-lg"
             src={contactImg}
@@ -59,104 +58,67 @@ const Contact = () => {
             </h2>
             <div className="flex items-center gap-3">
               <a href="https://www.facebook.com/awlads" target="_blank">
-                <IoLogoFacebook className="w-8 h-8 bg-[#1F2125] inline text-lg p-1 rounded-md text-white" />
+                <IoLogoFacebook className="w-8 h-8 bg-[#102750] inline text-lg p-1 rounded-md text-white" />
               </a>
               <a href="https://www.linkedin.com/in/mdawlad/" target="_blank">
-                <FaLinkedin className="w-8 h-8 bg-[#1F2125] inline text-lg p-1 rounded-md text-white" />
+                <FaLinkedin className="w-8 h-8 bg-[#102750] inline text-lg p-1 rounded-md text-white" />
               </a>
               <a href="https://github.com/Md-Awlad" target="_blank">
-                <ImGithub className="w-8 h-8 bg-[#1F2125] inline text-lg p-1 rounded-md text-white" />
+                <ImGithub className="w-8 h-8 bg-[#102750] inline text-lg p-1 rounded-md text-white" />
               </a>
               <a href="https://www.fiverr.com/mdawlad909" target="_blank">
-                <SiFiverr className="w-8 h-8 bg-[#1F2125] inline text-lg p-1 rounded-md text-white" />
+                <SiFiverr className="w-8 h-8 bg-[#102750] inline text-lg p-1 rounded-md text-white" />
               </a>
             </div>
           </div>
         </div>
         {/* --rightForm-- */}
-        <div className="lg:col-span-2 col-span-1 bg-white shadow-xl md:px-8 px-4 py-5 rounded-lg">
-          <Grid
-            container
-            rowSpacing={1}
-            columnSpacing={{ xs: 1, sm: 2, md: 3 }}
-          >
-            <Grid item xs={12} md={6}>
-              <Box
-                component="form"
-                sx={{
-                  "& > :not(style)": { m: 1 },
-                }}
-                noValidate
-                autoComplete="off"
-              >
-                <TextField
-                  id="outlined-basic"
-                  label="YOUR NAME"
-                  variant="outlined"
-                  fullWidth
-                />
-              </Box>
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <Box
-                component="form"
-                sx={{
-                  "& > :not(style)": { m: 1 },
-                }}
-                noValidate
-                autoComplete="off"
-              >
-                <TextField
-                  id="outlined-basic"
-                  label="PHONE NUMBER"
-                  variant="outlined"
-                  fullWidth
-                />
-              </Box>
-            </Grid>
-          </Grid>
-          <Grid item xs={12}>
-            <Box
-              component="form"
-              sx={{
-                "& > :not(style)": { m: 1 },
-              }}
-              noValidate
-              autoComplete="off"
-            >
-              <TextField
-                id="outlined-basic"
-                label="YOUR EMAIL"
-                variant="outlined"
-                fullWidth
-              />
-            </Box>
-          </Grid>
-          <Grid item xs={12}>
-            <Box
-              component="form"
-              sx={{
-                "& > :not(style)": { m: 1 },
-              }}
-              noValidate
-              autoComplete="off"
-            >
-              <TextField
-                id="outlined-basic"
-                label="SUBJECT"
-                variant="outlined"
-                fullWidth
-              />
-            </Box>
-          </Grid>
-          <Grid item xs={12}>
-            <TextareaAutosize
-              aria-label="minimum height"
-              minRows={10}
-              placeholder="Minimum 3 rows"
-              style={{ width: "100%" }}
+        <div className="lg:col-span-2 col-span-1 bg-white shadow-2xl md:px-8 px-4 py-5 rounded-lg md:space-y-10 space-y-4">
+          {/* ---name&email--- */}
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
+            <input
+              className="text-gray-500 font-semibold border border-gray-400 w-full p-3 rounded-md focus:outline-none"
+              type="text"
+              name=""
+              id=""
+              placeholder="Type your name..."
             />
-          </Grid>
+            <input
+              className="text-gray-500 font-semibold border border-gray-400 w-full p-3 rounded-md focus:outline-none"
+              type="email"
+              name=""
+              id=""
+              placeholder="example@gmail.com"
+            />
+          </div>
+          {/* ---address-- */}
+          <input
+            className="text-gray-500 font-semibold border border-gray-400 w-full p-3 rounded-md focus:outline-none"
+            type="text"
+            name=""
+            id=""
+            placeholder="Type your address..."
+          />
+          {/* ---subject-- */}
+          <input
+            className="text-gray-500 font-semibold border border-gray-400 w-full p-3 rounded-md focus:outline-none"
+            type="text"
+            name=""
+            id=""
+            placeholder="Type your subject..."
+          />
+          {/* ---message-- */}
+          <textarea
+            className="text-gray-500 font-semibold border border-gray-400 w-full h-48 p-3 rounded-md focus:outline-none"
+            type="text"
+            name=""
+            id=""
+            placeholder="Message..."
+          />
+          {/* --send-- */}
+          <button className="bg-[#BB1619] hover:bg-[#102750] text-xl text-white font-semibold w-full text-center uppercase py-2 rounded-full">
+            send <TbSend className="inline" />
+          </button>
         </div>
       </div>
     </div>
