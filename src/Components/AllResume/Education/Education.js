@@ -1,8 +1,9 @@
 import React from "react";
+import { Fade } from "react-reveal";
 
 const Education = () => {
   return (
-    <>
+    <Fade right>
       <div className="grid lg:grid-cols-2 grid-cols-1 md:gap-8 gap-4">
         {/* --diploma-- */}
         <div>
@@ -63,7 +64,7 @@ const Education = () => {
           </div>
         </div>
       </div>
-    </>
+    </Fade>
   );
 };
 

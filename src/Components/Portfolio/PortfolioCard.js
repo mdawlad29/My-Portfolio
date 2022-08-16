@@ -1,6 +1,6 @@
 import React from "react";
 import { GiSelfLove } from "react-icons/gi";
-import { Bounce, Fade } from "react-reveal";
+import { Fade } from "react-reveal";
 import blog1 from "../../images/blog1.png";
 import blog2 from "../../images/blog2.png";
 import blog3 from "../../images/blog3.png";
@@ -10,7 +10,7 @@ import blog6 from "../../images/blog6.png";
 
 const PortfolioCard = () => {
   return (
-    <>
+    <Fade left>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
         {/* --serviceOne-- */}
         <div className="bg-[#102750] text-gray-300 px-8 py-10 space-y-6 rounded-lg shadow-2xl">
@@ -97,7 +97,7 @@ const PortfolioCard = () => {
           </h2>
         </div>
       </div>
-    </>
+    </Fade>
   );
 };
 

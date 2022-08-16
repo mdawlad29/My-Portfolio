@@ -1,5 +1,6 @@
 import ProgressBar from "@ramonak/react-progress-bar";
 import React from "react";
+import { Zoom } from "react-reveal";
 
 const Skill = () => {
   const CompletedOne = 70;
@@ -35,7 +36,7 @@ const Skill = () => {
   const natSkill = Math.round((CompletedEight / maxCompletedEight) * 100);
 
   return (
-    <>
+    <Zoom>
       <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-16 md:gap-8 gap-4">
         {/* --left-- */}
         <div>
@@ -248,7 +249,7 @@ const Skill = () => {
           </div>
         </div>
       </div>
-    </>
+    </Zoom>
   );
 };
 

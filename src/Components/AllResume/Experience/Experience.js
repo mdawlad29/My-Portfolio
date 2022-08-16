@@ -1,8 +1,9 @@
 import React from "react";
+import { Fade } from "react-reveal";
 
 const Experience = () => {
   return (
-    <>
+    <Fade bottom>
       <div className="grid lg:grid-cols-2 grid-cols-1 md:gap-8 gap-4">
         {/* --companyOne-- */}
         <div>
@@ -57,7 +58,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-    </>
+    </Fade>
   );
 };
 
