@@ -10,6 +10,7 @@ import Pricing from "./Pages/Pricing";
 import Blogs from "./Pages/Blogs";
 import Contact from "./Pages/Contact";
 import Login from "./Pages/Login";
+import Notfound from "./Components/Notfound";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/blogs" element={<Blogs/>}/> 
           <Route path="/contact" element={<Contact/>}/> 
           <Route path="/login" element={<Login/>}/> 
+          <Route path="*" element={<Notfound/>}/> 
         </Routes>
         <Footer/>
       </Router>

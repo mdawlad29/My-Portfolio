@@ -21,7 +21,7 @@ const Header = () => {
       let windowHeight = window.scrollY;
       windowHeight > 80
         ? setStickyClass(
-            "fixed top-0 left-0 w-full bg-[#102750] text-white shadow-lg"
+            "fixed top-0 left-0 w-full bg-[#102750] text-white shadow-lg z-20 "
           )
         : setStickyClass("");
     }
@@ -44,7 +44,7 @@ const Header = () => {
         <ul
           className={`lg:flex lg:items-center absolute lg:static lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 md:px-2 px-7 transition-all duration-500 ease-in ${
             !open
-              ? "top-20 opacity-90 py-2 bg-[#102750]"
+              ? "top-20 opacity-90 py-2 bg-[#102750] z-10"
               : "top-[-490px] md:opacity-100 opacity-0"
           }`}
         >
