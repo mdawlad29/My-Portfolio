@@ -1,6 +1,5 @@
 import ProgressBar from "@ramonak/react-progress-bar";
 import React from "react";
-import { Zoom } from "react-reveal";
 
 const Skill = () => {
   const CompletedOne = 70;
