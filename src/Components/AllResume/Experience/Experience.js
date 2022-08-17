@@ -13,7 +13,7 @@ const Experience = () => {
           <div
             className="border-l-8 border-white relative"
           >
-            <div className="md:ml-12 ml-7 my-3 shadow-2xl hover:bg-[#BB1916] md:px-8 p-4 md:py-10 rounded-tr-3xl rounded-bl-3xl bg-white divide-y divide-[#BB1916] md:space-y-10 space-y-3">
+            <div className="md:ml-12 ml-7 my-3 shadow-2xl md:px-8 p-4 md:py-10 rounded-tr-3xl rounded-bl-3xl bg-white divide-y divide-[#BB1916] md:space-y-10 space-y-3">
               <div>
                 <h2 className="md:text-xl">
                   Junior Frontend Developer with React.Js
@@ -39,7 +39,7 @@ const Experience = () => {
           <div
             className="border-l-8 border-white relative"
           >
-            <div className="md:ml-12 ml-7 my-3 shadow-2xl hover:bg-[#BB1916] md:px-8 p-4 md:py-10 rounded-tr-3xl rounded-bl-3xl bg-white divide-y divide-[#BB1916] md:space-y-10 space-y-3">
+            <div className="md:ml-12 ml-7 my-3 shadow-2xl md:px-8 p-4 md:py-10 rounded-tr-3xl rounded-bl-3xl bg-white divide-y divide-[#BB1916] md:space-y-10 space-y-3">
               <div>
                 <h2 className="md:text-xl">
                   Frontend Developer with React.Js (Intern)
