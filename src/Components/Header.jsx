@@ -68,7 +68,7 @@ const Header = () => {
               portfolio
             </NavLink>
             <a
-              href="file:///C:/Users/mdawl/Downloads/React%20Developer(Awlad).pdf"
+              href="https://docs.google.com/document/d/1ocljEP70beL6809l_C2gVcrJ918KEBvX4712KJ5Krm4/edit?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="text-white duration-500 uppercase mx-3 md:block block
