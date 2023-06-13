@@ -39,11 +39,11 @@ const Header = () => {
           onClick={() => setOpen(!open)}
           className="text-3xl absolute right-8 top-6 cursor-pointer lg:hidden text-white"
         >
-          {open ? <AiOutlineMenu /> : <AiOutlineClose />}
+          {open ? <AiOutlineClose /> : <AiOutlineMenu />}
         </div>
         <ul
           className={`lg:flex lg:items-center absolute lg:static lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 md:px-2 px-7 transition-all duration-500 ease-in ${
-            !open
+            open
               ? "top-20 opacity-90 py-2 bg-[#102750] z-10"
               : "top-[-490px] md:opacity-100 opacity-0"
           }`}
@@ -68,8 +68,9 @@ const Header = () => {
               portfolio
             </NavLink>
             <a
-              href="https://drive.google.com/file/d/1ljw21g5wMlH71NEJMeYDvhuGDbg2Epz5/view?usp=sharing"
+              href="https://docs.google.com/document/d/1Xs_msKGCLppEiV93VpKZt0qrCApYh36ChZu_pXTALts/edit?usp=sharing"
               target="_blank"
+              rel="noreferrer"
               className="text-white duration-500 uppercase mx-3 md:block block
             lg:inline-block"
             >

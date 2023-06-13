@@ -7,7 +7,7 @@ import { Fade } from "react-reveal";
 
 const Blogs = () => {
   return (
-    <Fade right>
+    <Fade right cascade>
       <div className="md:py-20 py-5 md:mx-10 mx-7">
         <h2 className="text-lg md:text-center text-start text-[#FF014F] uppercase">
           visit my blog and keep your feedback

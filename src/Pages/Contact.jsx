@@ -6,11 +6,11 @@ import { ImGithub } from "react-icons/im";
 import { SiFiverr } from "react-icons/si";
 import { TbSend } from "react-icons/tb";
 import { Zoom } from "react-reveal";
-import { TextareaAutosize, TextField } from "@mui/material";
+import { TextField } from "@mui/material";
 
 const Contact = () => {
   return (
-    <Zoom>
+    <Zoom cascade>
       <div className="md:py-20 py-5 md:mx-10 mx-7">
         {/* --title-- */}
         <h2 className="text-lg md:text-center text-start text-[#FF014F] uppercase">
@@ -60,16 +60,32 @@ const Contact = () => {
                 contact us
               </h2>
               <div className="flex items-center gap-3">
-                <a href="https://www.facebook.com/awlads" target="_blank">
+                <a
+                  href="https://www.facebook.com/awlads"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <IoLogoFacebook className="w-8 h-8 bg-[#102750] inline text-lg p-1 rounded-md text-white" />
                 </a>
-                <a href="https://www.linkedin.com/in/mdawlad/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/mdawlad/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <FaLinkedin className="w-8 h-8 bg-[#102750] inline text-lg p-1 rounded-md text-white" />
                 </a>
-                <a href="https://github.com/Md-Awlad" target="_blank">
+                <a
+                  href="https://github.com/mdawlad29"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <ImGithub className="w-8 h-8 bg-[#102750] inline text-lg p-1 rounded-md text-white" />
                 </a>
-                <a href="https://www.fiverr.com/mdawlad909" target="_blank">
+                <a
+                  href="https://www.fiverr.com/mdawlad909"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <SiFiverr className="w-8 h-8 bg-[#102750] inline text-lg p-1 rounded-md text-white" />
                 </a>
               </div>

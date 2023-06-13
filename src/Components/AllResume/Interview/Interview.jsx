@@ -11,7 +11,7 @@ const Interview = () => {
   const maxCompletedTwo = 100;
   const interviewTwo = Math.round((CompletedTwo / maxCompletedTwo) * 100);
   return (
-    <Fade left>
+    <Fade left cascade>
       <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-16 md:gap-8 gap-4">
         {/* --left_interview-- */}
         <div>

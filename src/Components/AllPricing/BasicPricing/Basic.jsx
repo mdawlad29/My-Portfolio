@@ -4,27 +4,27 @@ import {
   AiOutlineClose,
   AiOutlineArrowRight,
 } from "react-icons/ai";
-import { Zoom } from "react-reveal";
+import { Fade } from "react-reveal";
 
-const Standard = () => {
+const Basic = () => {
   return (
-    <Zoom>
+    <Fade bottom cascade>
       <div className="space-y-10 bg-white md:px-8 px-4 py-5">
         {/* --tittle-- */}
         <div className="flex justify-between items-center flex-wrap gap-3">
           <div>
             <h2 className="md:text-2xl font-bold capitalize">
-              design make this page
+              make your single page
             </h2>
             <p className="text-sm text-gray-400 font-bold">Elementor</p>
           </div>
           <p className="bg-[#102750] text-white font-bold text-2xl py-2 px-10 shadow-2xl rounded-lg">
-            $ 50.0
+            $ 30.0
           </p>
         </div>
         <p className="text-lg text-gray-400 font-bold">
-          Making this the first true generator on the Internet. It uses a
-          dictionary & plugin Development.
+          All the Lorem Ipsum generators on the Internet tend to repeat
+          predefined chunks as necessary
         </p>
         {/* --category-- */}
         <div className="flex justify-between items-center flex-wrap gap-3">
@@ -75,8 +75,8 @@ const Standard = () => {
           order now <AiOutlineArrowRight className="inline ml-3" />
         </button>
       </div>
-    </Zoom>
+    </Fade>
   );
 };
 
-export default Standard;
+export default Basic;

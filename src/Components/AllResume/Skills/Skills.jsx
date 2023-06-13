@@ -36,7 +36,7 @@ const Skill = () => {
   const natSkill = Math.round((CompletedEight / maxCompletedEight) * 100);
 
   return (
-    <Zoom>
+    <Zoom cascade>
       <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-16 md:gap-8 gap-4">
         {/* --left-- */}
         <div>

@@ -7,7 +7,7 @@ import { Zoom } from "react-reveal";
 
 const FeaturesCard = () => {
   return (
-    <Zoom>
+    <Zoom cascade>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-10 gap-5">
         {/* --design-- */}
         <div className="bg-white hover:bg-[#BB1916] px-8 py-10 space-y-6 rounded-bl-[4rem] rounded-tr-[4rem] shadow-2xl text-[#102750] hover:text-white">

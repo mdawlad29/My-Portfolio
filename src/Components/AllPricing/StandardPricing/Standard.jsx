@@ -4,27 +4,27 @@ import {
   AiOutlineClose,
   AiOutlineArrowRight,
 } from "react-icons/ai";
-import { Fade } from "react-reveal";
+import { Zoom } from "react-reveal";
 
-const Premium = () => {
+const Standard = () => {
   return (
-    <Fade top>
+    <Zoom cascade>
       <div className="space-y-10 bg-white md:px-8 px-4 py-5">
         {/* --tittle-- */}
         <div className="flex justify-between items-center flex-wrap gap-3">
           <div>
             <h2 className="md:text-2xl font-bold capitalize">
-              customize your single page
+              design make this page
             </h2>
             <p className="text-sm text-gray-400 font-bold">Elementor</p>
           </div>
           <p className="bg-[#102750] text-white font-bold text-2xl py-2 px-10 shadow-2xl rounded-lg">
-            $ 90.0
+            $ 50.0
           </p>
         </div>
         <p className="text-lg text-gray-400 font-bold">
-          I will install your desire theme and made like Theme demo and
-          customize your single page( homepage)
+          Making this the first true generator on the Internet. It uses a
+          dictionary & plugin Development.
         </p>
         {/* --category-- */}
         <div className="flex justify-between items-center flex-wrap gap-3">
@@ -71,12 +71,12 @@ const Premium = () => {
           </div>
         </div>
         {/* --order-- */}
-        <button className="bg-[#BB1916] hover:bg-[#102750] text-xl text-white font-semibold w-full text-center uppercase py-2 rounded-full shadow-xl">
+        <button className="bg-[#BB1916] hover:bg-[#102750] text-xl text-white font-semibold w-full text-center uppercase py-2 rounded-full">
           order now <AiOutlineArrowRight className="inline ml-3" />
         </button>
       </div>
-    </Fade>
+    </Zoom>
   );
 };
 
-export default Premium;
+export default Standard;

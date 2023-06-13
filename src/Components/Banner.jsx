@@ -12,7 +12,7 @@ const Banner = () => {
   return (
     <div className="grid lg:grid-cols-3 md:grid-col-2 grid-cols-1 md:gap-10 gap-5 md:my-20 my-6 md:mx-10 mx-7">
       {/* --left textInfo-- */}
-      <Fade right>
+      <Fade right cascade>
         <div className="lg:col-span-2 col-span-1 text-gray-300 md:space-y-8 space-y-3 lg:order-1 order-2">
           <p className="md:text-lg text-md uppercase">welcome to my website</p>
           <h2 className="md:text-6xl text-5xl font-semibold text-white">
@@ -45,13 +45,25 @@ const Banner = () => {
                 find with me
               </h2>
               <div className="flex items-center md:gap-3 gap-2">
-                <a href="https://www.facebook.com/awlads" target="_blank">
+                <a
+                  href="https://www.facebook.com/awlads"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <IoLogoFacebook className="md:w-10 md:h-10 w-8 h-8 bg-[#1F2125] inline text-lg p-1 rounded-md text-white shadow-2xl" />
                 </a>
-                <a href="https://www.linkedin.com/in/mdawlad/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/mdawlad/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <FaLinkedin className="md:w-10 md:h-10 w-8 h-8 bg-[#1F2125] inline text-lg p-1 rounded-md text-white shadow-2xl" />
                 </a>
-                <a href="https://github.com/Md-Awlad" target="_blank">
+                <a
+                  href="https://github.com/mdawlad29"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <ImGithub className="md:w-10 md:h-10 w-8 h-8 bg-[#1F2125] inline text-lg p-1 rounded-md text-white shadow-2xl" />
                 </a>
               </div>
@@ -70,7 +82,7 @@ const Banner = () => {
         </div>
       </Fade>
       {/* --right Img-- */}
-      <Fade left>
+      <Fade left cascade>
         <div className="lg:cl-span-1 col-span-1 lg:order-2 order-1">
           <div className="bg-[#1F2125] h-full rounded-2xl">
             <img className="w-full h-full object-cover" src={Img} alt="" />

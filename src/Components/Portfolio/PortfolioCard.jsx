@@ -10,7 +10,7 @@ import blog6 from "../../images/blog6.png";
 
 const PortfolioCard = () => {
   return (
-    <Fade left>
+    <Fade left cascade>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
         {/* --serviceOne-- */}
         <div className="bg-[#102750] text-gray-300 px-8 py-10 space-y-6 rounded-lg shadow-2xl">
